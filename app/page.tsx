@@ -1,4 +1,5 @@
-/** Add your relevant code here for the issue to reproduce */
+import { SomeComponent } from "./client";
+
 export default function Home() {
-  return null
+  return <SomeComponent />;
 }
