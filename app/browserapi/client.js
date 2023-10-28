@@ -18,6 +18,7 @@ export const BroadcastExample = () => {
     };
 
     return () => {
+      console.log("CLEANUP");
       bc.close();
     };
   }, []);
